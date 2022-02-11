@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menuSearch"
+    tools:context=".PlaceListFragment">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="2"
+        android:title="@string/search_menu"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/previousPage"
+        android:icon="@drawable/ic_previous"
+        android:orderInCategory="2"
+        android:title="@string/previous_menu"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/nextPage"
+        android:icon="@drawable/ic_next"
+        android:orderInCategory="2"
+        android:title="@string/next_menu"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IBM</string>
+    <string name="description_details">Description:</string>
+    <string name="created_details">Created:</string>
+    <string name="duration_in_sec_details">Duration: (in Sec)</string>
+    <string name="user_details">User:</string>
+    <string name="email_details">Email:</string>
+    <string name="search">Search</string>
+    <string name="search_menu">Search</string>
+    <string name="next_menu">Next</string>
+    <string name="previous_menu">Previous</string>
+</resources>
